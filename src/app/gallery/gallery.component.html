@@ -1,10 +1,15 @@
-
+<div class="container">
 <div class="row" >
   <h3>Search By: </h3>
-      <button class="button " [class.active]="filterBy==='all'" (click)="filterBy='all'">All Images</button>
-      <button class="button" [class.active]="filterBy==='boats'" (click)="filterBy='boats'">Boats</button>
-      <button class="button" [class.active]="filterBy==='camping'" (click)="filterBy='camping'">Camping</button>
-      <button class="button" [class.active]="filterBy==='library'" (click)="filterBy='library'">Library</button>
+      
+      <a routerLink="/gallery"><button class="button" [class.active]="filterBy==='boats'" > All Images</button></a>
+      <a routerLink="/image-boat"><button class="button" [class.active]="filterBy==='boats'" > Boat</button></a>
+
+      <a routerLink="/image-camping"><button class="button" [class.active]="filterBy==='boats'" > Camping</button></a>
+
+      
+
+      <a routerLink = "/image-library"> <button class="button" [class.active]="filterBy==='library'" >Library</button></a>
 
       
       <ul class="thumbnailsList">
@@ -24,8 +29,12 @@
       <img src="assets/img/camping_05.jpeg" class ="tn" width ="200" height= "160"/>
       <img src="assets/img/camping_06.jpg" class ="tn" width ="200" height= "160"/>
       <img src="assets/img/camping_07.jpeg" class ="tn" width ="200" height= "160"/>
-
+      <img src="assets/img/library_01.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/library_02.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/library_03.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/library_04.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/library_05.jpeg" class ="tn" width ="200" height= "160"/>
   </li>
 </ul>
 </div>
-
+</div>

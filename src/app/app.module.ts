@@ -22,6 +22,12 @@ import { RouterModule } from '@angular/router';
 import { ImageService } from './image/shared/image.service';
 import { GalleryComponent } from './gallery/gallery.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ImageBoatComponent } from './image-boat/image-boat.component';
+import { ImageCampingComponent } from './image-camping/image-camping.component';
+import { ImageLibraryComponent } from './image-library/image-library.component';
+import { ButtonComponent } from './button/button.component';
+
+
 
 
 
@@ -33,6 +39,7 @@ import { NavbarComponent } from './navbar/navbar.component';
         HttpClientModule,
         routing,
        
+       
     ],
     declarations: [
         AppComponent,
@@ -41,7 +48,13 @@ import { NavbarComponent } from './navbar/navbar.component';
         LoginComponent,
         RegisterComponent,
         GalleryComponent,
-        NavbarComponent
+        NavbarComponent,
+        ImageBoatComponent,
+        ImageCampingComponent,
+        ImageLibraryComponent,
+        ButtonComponent,
+        
+        
     ],
     providers: [
         AuthGuard,
