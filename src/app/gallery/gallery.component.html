@@ -1,0 +1,31 @@
+
+<div class="row" >
+  <h3>Search By: </h3>
+      <button class="button " [class.active]="filterBy==='all'" (click)="filterBy='all'">All Images</button>
+      <button class="button" [class.active]="filterBy==='boats'" (click)="filterBy='boats'">Boats</button>
+      <button class="button" [class.active]="filterBy==='camping'" (click)="filterBy='camping'">Camping</button>
+      <button class="button" [class.active]="filterBy==='library'" (click)="filterBy='library'">Library</button>
+
+      
+      <ul class="thumbnailsList">
+
+         
+  <li >
+          <a [routerLink]=""></a> 
+      <img src="assets/img/boat_01.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/boat_02.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/boat_03.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/boat_04.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/boat_05.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_01.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_02.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_03.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_04.jpg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_05.jpeg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_06.jpg" class ="tn" width ="200" height= "160"/>
+      <img src="assets/img/camping_07.jpeg" class ="tn" width ="200" height= "160"/>
+
+  </li>
+</ul>
+</div>
+
